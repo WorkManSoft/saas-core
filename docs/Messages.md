@@ -10,68 +10,56 @@
 
 # SaaS.Enterprise
 
+# Modules
 
-# Messages
+* Authentication
+* 
+
+# Services (interfaces?)
+
+* Mail sender (using smtp/sendgrid?)
+* 
+
+# Messages / Contracts
 
 Create
 Update
 Delete
 Event (notification about what is happening)
+Read
+Request
+Response
 
 | Messagename  |   |   |   |   |
 |---|---|---|---|---|
 | CustomerCreate  |   |   |   |   |
 | CustomerUpdate  |   |   |   |   |
 | CustomerDelete  |   |   |   |   |
-| CustomerDelete  |   |   |   |   |
-| CustomerDelete  |   |   |   |   |
-| CustomerDelete  |   |   |   |   |
-| CustomerDelete  |   |   |   |   |
-| CustomerDelete  |   |   |   |   |
+| SubscriptionStatusRequest  |   |   |   |   |
+| SubscriptionStatusResponse  |   |   |   |   |
+| x  |   |   |   |   |
+| x  |   |   |   |   |
+| x  |   |   |   |   |
 | MailCreate  |   |   |   |   |
 | MailEvent  |   |   |   |   |
 
 AccountValidate
 
-
-Core
-Contracts
 Authentication
 
+ServiceOwner?
 
-Mailsender
-fdas
-
-Stripe
-Paypal
-Google
-
-
-
-
-
-Pro
-
-
-
-
+# Stages
 Start
 
-
-
-
 Maintenance
-
-
 
 Termination
 
 
 
-Modules
+# Modules
 CRM 
 SuiteCRM
-
-
 Mediawiki
 
