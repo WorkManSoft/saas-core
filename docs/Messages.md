@@ -13,19 +13,23 @@
 
 # Messages
 
-|   |   |   |   |   |
+Create
+Update
+Delete
+Event (notification about what is happening)
+
+| Messagename  |   |   |   |   |
 |---|---|---|---|---|
-| Customer  |   |   |   |   |
 | CustomerCreate  |   |   |   |   |
 | CustomerUpdate  |   |   |   |   |
 | CustomerDelete  |   |   |   |   |
-
-
-
-
-
-
-
+| CustomerDelete  |   |   |   |   |
+| CustomerDelete  |   |   |   |   |
+| CustomerDelete  |   |   |   |   |
+| CustomerDelete  |   |   |   |   |
+| CustomerDelete  |   |   |   |   |
+| MailCreate  |   |   |   |   |
+| MailEvent  |   |   |   |   |
 
 AccountValidate
 
