@@ -29,7 +29,10 @@ Messages defined below are intended for different subsystem of a SaaS solution. 
 
 # Services (interfaces?)
 
-* Mail sender (using smtp/sendgrid?)
+* IMailCreator --> Mail sender (using smtp/sendgrid?) and FluentEmail
+* MailCreator
+** send mail using sendgrid and smtp.
+** Parse using Razor?
 * 
 
 # Messages / Contracts
@@ -76,8 +79,8 @@ Termination
 
 
 
-# Modules
-CRM 
-SuiteCRM
-Mediawiki
+# Potential integrations
+
+* SuiteCRM, account creation et.c.
+* Mediawiki, why? What is the need? 
 
