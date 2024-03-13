@@ -45,6 +45,11 @@ Response
 | SubscriptionRenewal  | Is triggered when we try to renew an account  |   |   |   |
 | SubscriptionRenewed  |   |   |   |   |
 | SubscriptionExpired  |   |   |   |   |
+| SubscriptionPause  |   |   |   |   |
+| SubscriptionPaused  |   |   |   |   |
+| SubscriptionCreate  |   |   |   |   |
+| SubscriptionUpdate  |   |   |   |   |
+| SubscriptionDelete  |   |   |   |   |
 | MailCreate  |   |   |   |   |
 | MailEvent  |   |   |   |   |
 
