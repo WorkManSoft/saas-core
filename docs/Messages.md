@@ -1,3 +1,7 @@
+# About
+
+Messages defined below are intended for different subsystem of a SaaS solution. Depending upon what subsystems are available they be more or less detailed.
+
 # SaaS.Core
 
 ## SaaS.Core.Onboarding.Welcome
@@ -37,9 +41,10 @@ Response
 | CustomerDelete  |   |   |   |   |
 | SubscriptionStatusRequest  |   |   |   |   |
 | SubscriptionStatusResponse  |   |   |   |   |
-| x  |   |   |   |   |
-| x  |   |   |   |   |
-| x  |   |   |   |   |
+| SubscriptionExpiry | Is triggered x days times before a subscription expires. Can be 0 or many times before it expires.  |   |   |   |
+| SubscriptionRenewal  | Is triggered when we try to renew an account  |   |   |   |
+| SubscriptionRenewed  |   |   |   |   |
+| SubscriptionExpired  |   |   |   |   |
 | MailCreate  |   |   |   |   |
 | MailEvent  |   |   |   |   |
 
