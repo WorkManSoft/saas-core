@@ -31,8 +31,8 @@ Messages defined below are intended for different subsystem of a SaaS solution. 
 
 * IMailCreator --> Mail sender (using smtp/sendgrid?) and FluentEmail
 * MailCreator
-** send mail using sendgrid and smtp.
-** Parse using Razor?
+  * send mail using sendgrid and smtp.
+  ** Parse using Razor?
 * 
 
 # Messages / Contracts
