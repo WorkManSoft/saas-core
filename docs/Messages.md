@@ -2,6 +2,14 @@
 
 Messages defined below are intended for different subsystem of a SaaS solution. Depending upon what subsystems are available they be more or less detailed.
 
+## Messaging transport
+
+### Core
+
+* Interface for messaging
+* Table Queue messaging
+* AMQP (tested using RabbitMq and Masstransit)
+
 # SaaS.Core
 
 ## SaaS.Core.Onboarding.Welcome
