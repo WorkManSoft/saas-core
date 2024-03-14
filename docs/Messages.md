@@ -63,8 +63,10 @@ Response
 | SubscriptionDelete  |   |   |   |   |
 | MailCreate  |   |   |   |   |
 | MailEvent  |   |   |   |   |
-
-AccountValidate
+| EmailValidate  |   |   |   |   |
+| EmailValidated  |   |   |   |   |
+| AccountValidate  |   |   |   |   |
+| AccountValidated  |   |   |   |   |
 
 Authentication
 
