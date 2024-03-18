@@ -60,6 +60,8 @@ Response
 | SubscriptionPaused  |   |   |   |   |
 | SubscriptionCreate  |   |   |   |   |
 | SubscriptionUpdate  |   |   |   |   |
+| SubscriptionUpgrade  |   |   |   |   |
+| SubscriptionDowngrade  |   |   |   |   |
 | SubscriptionDelete  |   |   |   |   |
 | MailCreate  |   |   |   |   |
 | MailEvent  |   |   |   |   |
