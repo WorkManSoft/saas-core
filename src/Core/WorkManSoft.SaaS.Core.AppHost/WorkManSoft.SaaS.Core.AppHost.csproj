@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>970006f4-2082-40b6-b5a7-b6008d1ab066</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkManSoft.SaaS.Core.ApiService\WorkManSoft.SaaS.Core.ApiService.csproj" />
+    <ProjectReference Include="..\WorkManSoft.SaaS.Core.Web\WorkManSoft.SaaS.Core.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0-preview.5.24201.12" />
+  </ItemGroup>
+
+</Project>
